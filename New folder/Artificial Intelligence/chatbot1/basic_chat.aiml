@@ -1,0 +1,30 @@
+<aiml>
+
+<category>
+<pattern>HELLO</pattern>
+<template>Hello! How can I help you today?</template>
+</category>
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>
+Nice to meet you <set name="username"><star/></set>!
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS MY NAME</pattern>
+<template>Your name is <get name="username"/>.</template>
+</category>
+
+<category>
+<pattern>HOW ARE YOU</pattern>
+<template>I am just a chatbot but I'm doing great!</template>
+</category>
+
+<category>
+<pattern>BYE</pattern>
+<template>Goodbye! Have a nice day.</template>
+</category>
+
+</aiml>

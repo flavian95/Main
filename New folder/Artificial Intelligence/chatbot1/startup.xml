@@ -1,0 +1,12 @@
+
+<aiml>
+
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+<learn>basic_chat.aiml</learn>
+Bot loaded.
+</template>
+</category>
+
+</aiml>
